@@ -1,116 +1,174 @@
-.container {
-  padding: 0 2rem;
+.first{
+  background-image:   linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))  ,url("https://assets.nflxext.com/ffe/siteui/vlv3/6dea7743-5586-45d1-89a2-9569b1bb0340/61842499-160a-4014-9e06-96329c18b4ff/MA-en-20220207-popsignuptwoweeks-perspective_alpha_website_small.jpg");;
+
+  height: 120vh;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.logo{
+  margin: 20px;
+}
+
+.navbar{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.btns{
+  margin: 20px;
+  gap: 20px;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.btns button{
+  padding: 8px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.btns select{
+  padding: 8px 20px;
+  color: white;
+  background-color:transparent;
+  cursor: pointer;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.btns option{
+  background-color: grey;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
+.articles{
+  color: white;
   text-align: center;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
+.articles h1{
+  font-size: 4rem;
+}
+
+.articles h4{
   font-size: 1.5rem;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.articles input{
+  padding: 15px 100px;
+  padding-right: 20px;
 }
 
-.grid {
+.articles button{
+  text-transform: capitalize;
+  padding: 17px 40px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: none;
+  font-weight: 700;
+}
+
+.articles input:focus{
+  outline: none;
+}
+
+
+
+.tvparent{
+  border-top:5px solid grey;
+  border-bottom:5px solid grey;
+  background-color: #000;
+  height: 60vh;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  color: white;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.tvbox1 h1{
+  font-size: 3.2rem;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.tvparent1{
+  border-top:5px solid grey;
+  border-bottom:5px solid grey;
+  background-color: #000;
+  height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.box2 h1{
+  font-size: 3.2rem;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+
+.faqs h1{
+  text-align: center;
+  font-size: 3.2rem;
+  color: white;
+  text-align: center;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.faqs{
+  border-top:5px solid grey;
+  border-bottom:5px solid grey;
+  background-color: #000;
+  height: 70vh;
+ text-align: center;
+  color: white;
+
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.faqs input{
+  padding: 15px 100px;
+  padding-right: 20px;
+}
+
+.faqs button{
+  text-transform: capitalize;
+  padding: 17px 40px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: none;
+  font-weight: 700;
+}
+
+.farent{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top:5px solid grey;
+  border-bottom:5px solid grey;
+  background-color: #000;
+  height: 70vh;
+  color: white;
+}
+.li{
+  list-style: none;
+  margin: 20px;
+}
+
+.li:hover{
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.li select{
+  padding: 8px 20px;
+  color: white;
+  background-color:transparent;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.li option{
+  background-color: grey;
 }
